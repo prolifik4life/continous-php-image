@@ -25,6 +25,6 @@ jobs:
 
     - name: Build, tag, and push the Docker image
       run: |
-        docker build . -t prolifikus/continous_php_image
+        docker build . -t prolifikuc/continous_php_image
         docker tag prolifikuc/continous_php_image:latest public.ecr.aws/a9z5k9s6/prolifikuc/continous_php_image:latest
         docker push public.ecr.aws/a9z5k9s6/prolifikuc/continous_php_image:latest
